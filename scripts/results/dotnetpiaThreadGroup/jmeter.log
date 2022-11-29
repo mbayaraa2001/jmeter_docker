@@ -1,0 +1,208 @@
+2022-11-25 11:37:15,381 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-25 11:37:15,410 INFO o.a.j.JMeter: Loading user properties from: /jmeter/bin/user.properties
+2022-11-25 11:37:15,411 INFO o.a.j.JMeter: Loading system properties from: /jmeter/bin/system.properties
+2022-11-25 11:37:15,416 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-25 11:37:15,416 INFO o.a.j.JMeter: Version 5.5
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: java.version=18.0.2.1
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: os.name=Linux
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: os.arch=amd64
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: os.version=5.15.0-53-generic
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: java.awt.headless=true
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-11-25 11:37:15,417 INFO o.a.j.JMeter: Available Processors =12
+2022-11-25 11:37:15,428 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-25 11:37:15,428 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-25 11:37:15,428 INFO o.a.j.JMeter: JMeterHome=/jmeter
+2022-11-25 11:37:15,429 INFO o.a.j.JMeter: user.dir  =/jmeter/dotnetpiaThreadGroup
+2022-11-25 11:37:15,429 INFO o.a.j.JMeter: PWD       =/jmeter/dotnetpiaThreadGroup
+2022-11-25 11:37:15,429 INFO o.a.j.JMeter: IP: 172.19.0.3 Name: dc71a938b942 FullName: dc71a938b942
+2022-11-25 11:37:15,432 INFO o.a.j.s.FileServer: Default base='/jmeter/dotnetpiaThreadGroup'
+2022-11-25 11:37:15,433 INFO o.a.j.s.FileServer: Set new base='/jmeter/dotnetpiaThreadGroup/../scripts'
+2022-11-25 11:37:15,569 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-11-25 11:37:15,587 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-11-25 11:37:15,589 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-11-25 11:37:15,591 INFO o.a.j.s.SaveService: Loading file: ../scripts/dotnetpiaThreadGroup.jmx
+2022-11-25 11:37:15,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-25 11:37:15,618 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-25 11:37:15,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-25 11:37:15,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-25 11:37:15,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-11-25 11:37:15,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-11-25 11:37:15,657 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-11-25 11:37:15,659 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.19.0.2
+2022-11-25 11:37:15,661 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,738 INFO o.a.j.e.DistributedRunner: Starting distributed test with remote engines: [172.19.0.2] @ 2022 Nov 25 11:37:15 ULAT (1669347435731)
+2022-11-25 11:37:15,738 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2022-11-25 11:37:15,742 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-11-25 11:37:15,742 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-11-25 11:37:15,782 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,782 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,784 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-25 11:37:15,787 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2022-11-25 11:37:15,788 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,788 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2022-11-25 11:37:15,788 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,788 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2022-11-25 11:37:15,788 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,788 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,789 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2022-11-25 11:37:15,789 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2022-11-25 11:37:15,789 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,789 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,789 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2022-11-25 11:37:15,789 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2022-11-25 11:37:15,790 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,790 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,959 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:15,959 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2022-11-25 11:37:16,060 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.19.0.2 basedir='../scripts'
+2022-11-25 11:37:16,060 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2022-11-25 11:37:16,072 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.19.0.2
+2022-11-25 11:37:16,072 INFO o.a.j.e.DistributedRunner: Remote engines have been started:[172.19.0.2]
+2022-11-25 11:37:16,125 INFO o.a.j.r.ResultCollector: Folder at /home/wizpc/Documents/ITwizard/nCloud Jmeter-server/jmeter_results was created
+2022-11-25 11:37:16,134 INFO o.a.j.JMeter: Started remote host:  172.19.0.2 (1669347436133)
+2022-11-25 11:39:26,121 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-11-25 11:39:26,122 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-11-25 11:39:26,122 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-11-25 11:39:26,122 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-11-25 11:47:00,770 INFO o.a.j.r.Summariser: summary +    302 in 00:09:45 =    0.5/s Avg: 130781 Min: 129163 Max: 131203 Err:   302 (100.00%) Active: 100 Started: 100 Finished: 0
+2022-11-25 11:52:32,546 INFO o.a.j.r.Summariser: summary +    261 in 00:05:32 =    0.8/s Avg: 131071 Min: 131057 Max: 131076 Err:   261 (100.00%) Active: 100 Started: 100 Finished: 0
+2022-11-25 11:52:32,547 INFO o.a.j.r.Summariser: summary =    563 in 00:15:16 =    0.6/s Avg: 130915 Min: 129163 Max: 131203 Err:   563 (100.00%)
+2022-11-25 11:53:33,985 INFO o.a.j.r.Summariser: summary +     39 in 00:01:01 =    0.6/s Avg: 131071 Min: 131059 Max: 131072 Err:    39 (100.00%) Active: 100 Started: 100 Finished: 0
+2022-11-25 11:53:33,985 INFO o.a.j.r.Summariser: summary =    602 in 00:16:18 =    0.6/s Avg: 130925 Min: 129163 Max: 131203 Err:   602 (100.00%)
+2022-11-25 11:59:05,763 INFO o.a.j.r.Summariser: summary +    261 in 00:05:32 =    0.8/s Avg: 131071 Min: 131059 Max: 131076 Err:   261 (100.00%) Active: 100 Started: 100 Finished: 0
+2022-11-25 11:59:05,764 INFO o.a.j.r.Summariser: summary =    863 in 00:21:50 =    0.7/s Avg: 130969 Min: 129163 Max: 131203 Err:   863 (100.00%)
+2022-11-25 12:16:01,565 INFO o.a.j.r.Summariser: summary +    701 in 00:16:56 =    0.7/s Avg: 130945 Min: 129169 Max: 131208 Err:   701 (100.00%) Active: 100 Started: 200 Finished: 100
+2022-11-25 12:16:01,566 INFO o.a.j.r.Summariser: summary =   1564 in 00:38:45 =    0.7/s Avg: 130958 Min: 129163 Max: 131208 Err:  1564 (100.00%)
+2022-11-25 12:17:03,007 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131062 Max: 131072 Err:    38 (100.00%) Active: 100 Started: 200 Finished: 100
+2022-11-25 12:17:03,007 INFO o.a.j.r.Summariser: summary =   1602 in 00:39:47 =    0.7/s Avg: 130961 Min: 129163 Max: 131208 Err:  1602 (100.00%)
+2022-11-25 12:22:34,778 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131061 Max: 131076 Err:   262 (100.00%) Active: 99 Started: 200 Finished: 101
+2022-11-25 12:22:34,778 INFO o.a.j.r.Summariser: summary =   1864 in 00:45:19 =    0.7/s Avg: 130976 Min: 129163 Max: 131208 Err:  1864 (100.00%)
+2022-11-25 12:28:35,232 INFO o.a.j.r.Summariser: summary +    200 in 00:06:00 =    0.6/s Avg: 130769 Min: 129162 Max: 131172 Err:   200 (100.00%) Active: 100 Started: 300 Finished: 200
+2022-11-25 12:28:35,233 INFO o.a.j.r.Summariser: summary =   2064 in 00:51:19 =    0.7/s Avg: 130956 Min: 129162 Max: 131208 Err:  2064 (100.00%)
+2022-11-25 12:39:30,590 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131011 Min: 129180 Max: 131179 Err:   500 (100.00%) Active: 100 Started: 300 Finished: 200
+2022-11-25 12:39:30,591 INFO o.a.j.r.Summariser: summary =   2564 in 01:02:14 =    0.7/s Avg: 130967 Min: 129162 Max: 131208 Err:  2564 (100.00%)
+2022-11-25 12:40:32,032 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131061 Max: 131072 Err:    38 (100.00%) Active: 100 Started: 300 Finished: 200
+2022-11-25 12:40:32,032 INFO o.a.j.r.Summariser: summary =   2602 in 01:03:16 =    0.7/s Avg: 130968 Min: 129162 Max: 131208 Err:  2602 (100.00%)
+2022-11-25 12:46:03,804 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131058 Max: 131076 Err:   262 (100.00%) Active: 99 Started: 300 Finished: 201
+2022-11-25 12:46:03,804 INFO o.a.j.r.Summariser: summary =   2864 in 01:08:48 =    0.7/s Avg: 130978 Min: 129162 Max: 131208 Err:  2864 (100.00%)
+2022-11-25 12:47:05,247 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131057 Max: 131073 Err:    38 (100.00%) Active: 37 Started: 300 Finished: 263
+2022-11-25 12:47:05,248 INFO o.a.j.r.Summariser: summary =   2902 in 01:09:49 =    0.7/s Avg: 130979 Min: 129162 Max: 131208 Err:  2902 (100.00%)
+2022-11-25 12:52:04,262 INFO o.a.j.r.Summariser: summary +    162 in 00:04:59 =    0.5/s Avg: 130698 Min: 129162 Max: 131171 Err:   162 (100.00%) Active: 100 Started: 400 Finished: 300
+2022-11-25 12:52:04,263 INFO o.a.j.r.Summariser: summary =   3064 in 01:14:48 =    0.7/s Avg: 130964 Min: 129162 Max: 131208 Err:  3064 (100.00%)
+2022-11-25 12:53:05,696 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 130279 Min: 129180 Max: 131180 Err:    38 (100.00%) Active: 100 Started: 400 Finished: 300
+2022-11-25 12:53:05,696 INFO o.a.j.r.Summariser: summary =   3102 in 01:15:50 =    0.7/s Avg: 130956 Min: 129162 Max: 131208 Err:  3102 (100.00%)
+2022-11-25 13:05:00,449 INFO o.a.j.r.Summariser: summary +   1180 in 00:11:55 =    1.7/s Avg: 47924 Min:     0 Max: 131206 Err:  1180 (100.00%) Active: 90 Started: 500 Finished: 410
+2022-11-25 13:05:00,449 INFO o.a.j.r.Summariser: summary =   4282 in 01:27:44 =    0.8/s Avg: 108075 Min:     0 Max: 131208 Err:  4282 (100.00%)
+2022-11-25 13:10:32,219 INFO o.a.j.r.Summariser: summary +    240 in 00:05:32 =    0.7/s Avg: 131071 Min: 131048 Max: 131073 Err:   240 (100.00%) Active: 90 Started: 500 Finished: 410
+2022-11-25 13:10:32,219 INFO o.a.j.r.Summariser: summary =   4522 in 01:33:16 =    0.8/s Avg: 109295 Min:     0 Max: 131208 Err:  4522 (100.00%)
+2022-11-25 13:11:33,665 INFO o.a.j.r.Summariser: summary +     30 in 00:01:01 =    0.5/s Avg: 131071 Min: 131047 Max: 131072 Err:    30 (100.00%) Active: 90 Started: 500 Finished: 410
+2022-11-25 13:11:33,665 INFO o.a.j.r.Summariser: summary =   4552 in 01:34:18 =    0.8/s Avg: 109439 Min:     0 Max: 131208 Err:  4552 (100.00%)
+2022-11-25 13:17:05,455 INFO o.a.j.r.Summariser: summary +    240 in 00:05:32 =    0.7/s Avg: 131071 Min: 131061 Max: 131076 Err:   240 (100.00%) Active: 90 Started: 500 Finished: 410
+2022-11-25 13:17:05,456 INFO o.a.j.r.Summariser: summary =   4792 in 01:39:49 =    0.8/s Avg: 110522 Min:     0 Max: 131208 Err:  4792 (100.00%)
+2022-11-25 13:29:30,912 INFO o.a.j.r.Summariser: summary +    472 in 00:12:25 =    0.6/s Avg: 130879 Min: 129164 Max: 131180 Err:   472 (100.00%) Active: 100 Started: 600 Finished: 500
+2022-11-25 13:29:30,912 INFO o.a.j.r.Summariser: summary =   5264 in 01:52:15 =    0.8/s Avg: 112347 Min:     0 Max: 131208 Err:  5264 (100.00%)
+2022-11-25 13:30:32,351 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131054 Max: 131073 Err:    38 (100.00%) Active: 100 Started: 600 Finished: 500
+2022-11-25 13:30:32,351 INFO o.a.j.r.Summariser: summary =   5302 in 01:53:16 =    0.8/s Avg: 112482 Min:     0 Max: 131208 Err:  5302 (100.00%)
+2022-11-25 13:36:04,128 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131060 Max: 131076 Err:   262 (100.00%) Active: 100 Started: 600 Finished: 500
+2022-11-25 13:36:04,128 INFO o.a.j.r.Summariser: summary =   5564 in 01:58:48 =    0.8/s Avg: 113357 Min:     0 Max: 131208 Err:  5564 (100.00%)
+2022-11-25 13:37:05,570 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131061 Max: 131072 Err:    38 (100.00%) Active: 100 Started: 600 Finished: 500
+2022-11-25 13:37:05,570 INFO o.a.j.r.Summariser: summary =   5602 in 01:59:49 =    0.8/s Avg: 113477 Min:     0 Max: 131208 Err:  5602 (100.00%)
+2022-11-25 13:54:01,380 INFO o.a.j.r.Summariser: summary +    700 in 00:16:56 =    0.7/s Avg: 130942 Min: 129163 Max: 131181 Err:   700 (100.00%) Active: 100 Started: 700 Finished: 600
+2022-11-25 13:54:01,380 INFO o.a.j.r.Summariser: summary =   6302 in 02:16:45 =    0.8/s Avg: 115417 Min:     0 Max: 131208 Err:  6302 (100.00%)
+2022-11-25 13:59:33,156 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131058 Max: 131075 Err:   262 (100.00%) Active: 100 Started: 700 Finished: 600
+2022-11-25 13:59:33,157 INFO o.a.j.r.Summariser: summary =   6564 in 02:22:17 =    0.8/s Avg: 116042 Min:     0 Max: 131208 Err:  6564 (100.00%)
+2022-11-25 14:00:34,590 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131059 Max: 131075 Err:    38 (100.00%) Active: 100 Started: 700 Finished: 600
+2022-11-25 14:00:34,590 INFO o.a.j.r.Summariser: summary =   6602 in 02:23:18 =    0.8/s Avg: 116128 Min:     0 Max: 131208 Err:  6602 (100.00%)
+2022-11-25 14:17:30,400 INFO o.a.j.r.Summariser: summary +    700 in 00:16:56 =    0.7/s Avg: 130942 Min: 129164 Max: 131181 Err:   700 (100.00%) Active: 100 Started: 800 Finished: 700
+2022-11-25 14:17:30,400 INFO o.a.j.r.Summariser: summary =   7302 in 02:40:14 =    0.8/s Avg: 117548 Min:     0 Max: 131208 Err:  7302 (100.00%)
+2022-11-25 14:23:02,180 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131058 Max: 131075 Err:   262 (100.00%) Active: 100 Started: 800 Finished: 700
+2022-11-25 14:23:02,180 INFO o.a.j.r.Summariser: summary =   7564 in 02:45:46 =    0.8/s Avg: 118017 Min:     0 Max: 131208 Err:  7564 (100.00%)
+2022-11-25 14:24:03,614 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131063 Max: 131075 Err:    38 (100.00%) Active: 100 Started: 800 Finished: 700
+2022-11-25 14:24:03,614 INFO o.a.j.r.Summariser: summary =   7602 in 02:46:47 =    0.8/s Avg: 118082 Min:     0 Max: 131208 Err:  7602 (100.00%)
+2022-11-25 14:29:35,396 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131057 Max: 131075 Err:   262 (100.00%) Active: 99 Started: 800 Finished: 701
+2022-11-25 14:29:35,397 INFO o.a.j.r.Summariser: summary =   7864 in 02:52:19 =    0.8/s Avg: 118515 Min:     0 Max: 131208 Err:  7864 (100.00%)
+2022-11-25 14:35:35,835 INFO o.a.j.r.Summariser: summary +    200 in 00:06:00 =    0.6/s Avg: 130769 Min: 129165 Max: 131173 Err:   200 (100.00%) Active: 100 Started: 900 Finished: 800
+2022-11-25 14:35:35,835 INFO o.a.j.r.Summariser: summary =   8064 in 02:58:20 =    0.8/s Avg: 118819 Min:     0 Max: 131208 Err:  8064 (100.00%)
+2022-11-25 14:46:31,204 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131011 Min: 129181 Max: 131181 Err:   500 (100.00%) Active: 100 Started: 900 Finished: 800
+2022-11-25 14:46:31,206 INFO o.a.j.r.Summariser: summary =   8564 in 03:09:15 =    0.8/s Avg: 119531 Min:     0 Max: 131208 Err:  8564 (100.00%)
+2022-11-25 14:47:32,640 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131059 Max: 131076 Err:    38 (100.00%) Active: 100 Started: 900 Finished: 800
+2022-11-25 14:47:32,641 INFO o.a.j.r.Summariser: summary =   8602 in 03:10:17 =    0.8/s Avg: 119582 Min:     0 Max: 131208 Err:  8602 (100.00%)
+2022-11-25 14:53:04,420 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131056 Max: 131075 Err:   262 (100.00%) Active: 99 Started: 900 Finished: 801
+2022-11-25 14:53:04,421 INFO o.a.j.r.Summariser: summary =   8864 in 03:15:48 =    0.8/s Avg: 119921 Min:     0 Max: 131208 Err:  8864 (100.00%)
+2022-11-25 14:54:05,855 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131063 Max: 131073 Err:    38 (100.00%) Active: 37 Started: 900 Finished: 863
+2022-11-25 14:54:05,855 INFO o.a.j.r.Summariser: summary =   8902 in 03:16:50 =    0.8/s Avg: 119969 Min:     0 Max: 131208 Err:  8902 (100.00%)
+2022-11-25 14:59:04,868 INFO o.a.j.r.Summariser: summary +    162 in 00:04:59 =    0.5/s Avg: 130699 Min: 129164 Max: 131172 Err:   162 (100.00%) Active: 100 Started: 1000 Finished: 900
+2022-11-25 14:59:04,868 INFO o.a.j.r.Summariser: summary =   9064 in 03:21:49 =    0.7/s Avg: 120161 Min:     0 Max: 131208 Err:  9064 (100.00%)
+2022-11-25 15:10:00,221 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131011 Min: 129181 Max: 131181 Err:   500 (100.00%) Active: 100 Started: 1000 Finished: 900
+2022-11-25 15:10:00,221 INFO o.a.j.r.Summariser: summary =   9564 in 03:32:44 =    0.7/s Avg: 120728 Min:     0 Max: 131208 Err:  9564 (100.00%)
+2022-11-25 15:11:01,663 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131065 Max: 131072 Err:    38 (100.00%) Active: 100 Started: 1000 Finished: 900
+2022-11-25 15:11:01,663 INFO o.a.j.r.Summariser: summary =   9602 in 03:33:46 =    0.7/s Avg: 120769 Min:     0 Max: 131208 Err:  9602 (100.00%)
+2022-11-25 15:16:33,437 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131053 Max: 131075 Err:   262 (100.00%) Active: 100 Started: 1000 Finished: 900
+2022-11-25 15:16:33,437 INFO o.a.j.r.Summariser: summary =   9864 in 03:39:17 =    0.7/s Avg: 121042 Min:     0 Max: 131208 Err:  9864 (100.00%)
+2022-11-25 15:17:34,879 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131066 Max: 131073 Err:    38 (100.00%) Active: 37 Started: 1000 Finished: 963
+2022-11-25 15:17:34,879 INFO o.a.j.r.Summariser: summary =   9902 in 03:40:19 =    0.7/s Avg: 121081 Min:     0 Max: 131208 Err:  9902 (100.00%)
+2022-11-25 15:22:33,892 INFO o.a.j.r.Summariser: summary +    162 in 00:04:59 =    0.5/s Avg: 130699 Min: 129164 Max: 131173 Err:   162 (100.00%) Active: 100 Started: 1100 Finished: 1000
+2022-11-25 15:22:33,893 INFO o.a.j.r.Summariser: summary =  10064 in 03:45:18 =    0.7/s Avg: 121236 Min:     0 Max: 131208 Err: 10064 (100.00%)
+2022-11-25 15:23:35,328 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 130280 Min: 129181 Max: 131181 Err:    38 (100.00%) Active: 100 Started: 1100 Finished: 1000
+2022-11-25 15:23:35,328 INFO o.a.j.r.Summariser: summary =  10102 in 03:46:19 =    0.7/s Avg: 121270 Min:     0 Max: 131208 Err: 10102 (100.00%)
+2022-11-25 15:34:30,687 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131071 Min: 131050 Max: 131075 Err:   500 (100.00%) Active: 100 Started: 1100 Finished: 1000
+2022-11-25 15:34:30,687 INFO o.a.j.r.Summariser: summary =  10602 in 03:57:15 =    0.7/s Avg: 121732 Min:     0 Max: 131208 Err: 10602 (100.00%)
+2022-11-25 15:40:02,468 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131059 Max: 131073 Err:   262 (100.00%) Active: 99 Started: 1100 Finished: 1001
+2022-11-25 15:40:02,469 INFO o.a.j.r.Summariser: summary =  10864 in 04:02:46 =    0.7/s Avg: 121957 Min:     0 Max: 131208 Err: 10864 (100.00%)
+2022-11-25 15:41:03,901 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131058 Max: 131072 Err:    38 (100.00%) Active: 37 Started: 1100 Finished: 1063
+2022-11-25 15:41:03,901 INFO o.a.j.r.Summariser: summary =  10902 in 04:03:48 =    0.7/s Avg: 121989 Min:     0 Max: 131208 Err: 10902 (100.00%)
+2022-11-25 15:46:02,916 INFO o.a.j.r.Summariser: summary +    162 in 00:04:59 =    0.5/s Avg: 130699 Min: 129166 Max: 131175 Err:   162 (100.00%) Active: 100 Started: 1200 Finished: 1100
+2022-11-25 15:46:02,917 INFO o.a.j.r.Summariser: summary =  11064 in 04:08:47 =    0.7/s Avg: 122116 Min:     0 Max: 131208 Err: 11064 (100.00%)
+2022-11-25 15:47:04,352 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 130281 Min: 129182 Max: 131182 Err:    38 (100.00%) Active: 100 Started: 1200 Finished: 1100
+2022-11-25 15:47:04,352 INFO o.a.j.r.Summariser: summary =  11102 in 04:09:48 =    0.7/s Avg: 122144 Min:     0 Max: 131208 Err: 11102 (100.00%)
+2022-11-25 16:03:31,491 INFO o.a.j.r.Summariser: summary +    762 in 00:16:27 =    0.8/s Avg: 131071 Min: 131056 Max: 131076 Err:   762 (100.00%) Active: 99 Started: 1200 Finished: 1101
+2022-11-25 16:03:31,492 INFO o.a.j.r.Summariser: summary =  11864 in 04:26:15 =    0.7/s Avg: 122718 Min:     0 Max: 131208 Err: 11864 (100.00%)
+2022-11-25 16:04:32,927 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131058 Max: 131072 Err:    38 (100.00%) Active: 37 Started: 1200 Finished: 1163
+2022-11-25 16:04:32,927 INFO o.a.j.r.Summariser: summary =  11902 in 04:27:17 =    0.7/s Avg: 122744 Min:     0 Max: 131208 Err: 11902 (100.00%)
+2022-11-25 16:10:01,631 INFO o.a.j.r.Summariser: summary +    390 in 00:05:29 =    1.2/s Avg: 84200 Min:  2048 Max: 131182 Err:   390 (100.00%) Active: 71 Started: 1300 Finished: 1229
+2022-11-25 16:10:01,631 INFO o.a.j.r.Summariser: summary =  12292 in 04:32:45 =    0.8/s Avg: 121522 Min:     0 Max: 131208 Err: 12292 (100.00%)
+2022-11-25 16:24:02,339 INFO o.a.j.r.Summariser: summary +    674 in 00:14:01 =    0.8/s Avg: 18170 Min:     0 Max: 131076 Err:   674 (100.00%) Active: 10 Started: 1300 Finished: 1290
+2022-11-25 16:24:02,341 INFO o.a.j.r.Summariser: summary =  12966 in 04:46:46 =    0.8/s Avg: 116149 Min:     0 Max: 131208 Err: 12966 (100.00%)
+2022-11-25 16:34:00,350 INFO o.a.j.r.Summariser: summary +    136 in 00:09:58 =    0.2/s Avg: 130407 Min: 129165 Max: 131181 Err:   136 (100.00%) Active: 100 Started: 1400 Finished: 1300
+2022-11-25 16:34:00,350 INFO o.a.j.r.Summariser: summary =  13102 in 04:56:44 =    0.7/s Avg: 116297 Min:     0 Max: 131208 Err: 13102 (100.00%)
+2022-11-25 16:39:32,125 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131059 Max: 131075 Err:   262 (100.00%) Active: 100 Started: 1400 Finished: 1300
+2022-11-25 16:39:32,125 INFO o.a.j.r.Summariser: summary =  13364 in 05:02:16 =    0.7/s Avg: 116587 Min:     0 Max: 131208 Err: 13364 (100.00%)
+2022-11-25 16:40:33,567 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131058 Max: 131072 Err:    38 (100.00%) Active: 100 Started: 1400 Finished: 1300
+2022-11-25 16:40:33,567 INFO o.a.j.r.Summariser: summary =  13402 in 05:03:17 =    0.7/s Avg: 116628 Min:     0 Max: 131208 Err: 13402 (100.00%)
+2022-11-25 16:46:05,348 INFO o.a.j.r.Summariser: summary +    262 in 00:05:32 =    0.8/s Avg: 131071 Min: 131059 Max: 131073 Err:   262 (100.00%) Active: 100 Started: 1400 Finished: 1300
+2022-11-25 16:46:05,349 INFO o.a.j.r.Summariser: summary =  13664 in 05:08:49 =    0.7/s Avg: 116905 Min:     0 Max: 131208 Err: 13664 (100.00%)
+2022-11-25 16:56:34,078 INFO o.a.j.r.Summariser: summary +    438 in 00:10:29 =    0.7/s Avg: 130865 Min: 129166 Max: 131182 Err:   438 (100.00%) Active: 87 Started: 1500 Finished: 1413
+2022-11-25 16:56:34,078 INFO o.a.j.r.Summariser: summary =  14102 in 05:19:18 =    0.7/s Avg: 117338 Min:     0 Max: 131208 Err: 14102 (100.00%)
+2022-11-25 17:01:00,321 INFO o.a.j.r.Summariser: summary +    295 in 00:04:26 =    1.1/s Avg: 69219 Min:     0 Max: 131075 Err:   295 (100.00%) Active: 83 Started: 1500 Finished: 1417
+2022-11-25 17:01:00,322 INFO o.a.j.r.Summariser: summary =  14397 in 05:23:44 =    0.7/s Avg: 116352 Min:     0 Max: 131208 Err: 14397 (100.00%)
+2022-11-25 17:02:03,808 INFO o.a.j.r.Summariser: summary +     24 in 00:01:03 =    0.4/s Avg: 131070 Min: 131058 Max: 131072 Err:    24 (100.00%) Active: 83 Started: 1500 Finished: 1417
+2022-11-25 17:02:03,808 INFO o.a.j.r.Summariser: summary =  14421 in 05:24:48 =    0.7/s Avg: 116377 Min:     0 Max: 131208 Err: 14421 (100.00%)
+2022-11-25 17:07:33,539 INFO o.a.j.r.Summariser: summary +    225 in 00:05:30 =    0.7/s Avg: 131071 Min: 131059 Max: 131075 Err:   225 (100.00%) Active: 83 Started: 1500 Finished: 1417
+2022-11-25 17:07:33,541 INFO o.a.j.r.Summariser: summary =  14646 in 05:30:17 =    0.7/s Avg: 116603 Min:     0 Max: 131208 Err: 14646 (100.00%)
+2022-11-25 17:22:05,988 INFO o.a.j.r.Summariser: summary +    518 in 00:14:32 =    0.6/s Avg: 125595 Min:     0 Max: 131182 Err:   518 (100.00%) Active: 100 Started: 1600 Finished: 1500
+2022-11-25 17:22:05,989 INFO o.a.j.r.Summariser: summary =  15164 in 05:44:50 =    0.7/s Avg: 116910 Min:     0 Max: 131208 Err: 15164 (100.00%)
+2022-11-25 17:33:01,348 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131071 Min: 131056 Max: 131076 Err:   500 (100.00%) Active: 100 Started: 1600 Finished: 1500
+2022-11-25 17:33:01,349 INFO o.a.j.r.Summariser: summary =  15664 in 05:55:45 =    0.7/s Avg: 117362 Min:     0 Max: 131208 Err: 15664 (100.00%)
+2022-11-25 17:34:02,779 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131059 Max: 131075 Err:    38 (100.00%) Active: 100 Started: 1600 Finished: 1500
+2022-11-25 17:34:02,779 INFO o.a.j.r.Summariser: summary =  15702 in 05:56:47 =    0.7/s Avg: 117395 Min:     0 Max: 131208 Err: 15702 (100.00%)
+2022-11-25 17:45:35,012 INFO o.a.j.r.Summariser: summary +    462 in 00:11:32 =    0.7/s Avg: 130876 Min: 129167 Max: 131183 Err:   462 (100.00%) Active: 100 Started: 1700 Finished: 1600
+2022-11-25 17:45:35,013 INFO o.a.j.r.Summariser: summary =  16164 in 06:08:19 =    0.7/s Avg: 117780 Min:     0 Max: 131208 Err: 16164 (100.00%)
+2022-11-25 17:56:30,365 INFO o.a.j.r.Summariser: summary +    500 in 00:10:55 =    0.8/s Avg: 131071 Min: 131056 Max: 131076 Err:   500 (100.00%) Active: 100 Started: 1700 Finished: 1600
+2022-11-25 17:56:30,366 INFO o.a.j.r.Summariser: summary =  16664 in 06:19:14 =    0.7/s Avg: 118179 Min:     0 Max: 131208 Err: 16664 (100.00%)
+2022-11-25 17:57:31,805 INFO o.a.j.r.Summariser: summary +     38 in 00:01:01 =    0.6/s Avg: 131071 Min: 131065 Max: 131075 Err:    38 (100.00%) Active: 100 Started: 1700 Finished: 1600
+2022-11-25 17:57:31,805 INFO o.a.j.r.Summariser: summary =  16702 in 06:20:16 =    0.7/s Avg: 118208 Min:     0 Max: 131208 Err: 16702 (100.00%)
+2022-11-25 18:02:30,834 INFO o.a.j.r.Summariser: summary +    262 in 00:04:59 =    0.9/s Avg: 131071 Min: 131063 Max: 131075 Err:   262 (100.00%) Active: 0 Started: 1700 Finished: 1700
+2022-11-25 18:02:30,835 INFO o.a.j.r.Summariser: summary =  16964 in 06:25:15 =    0.7/s Avg: 118407 Min:     0 Max: 131208 Err: 16964 (100.00%)
+2022-11-25 18:02:30,836 INFO o.a.j.r.Summariser: summary +     36 in 00:00:00 = 18000.0/s Avg: 131072 Min: 131072 Max: 131072 Err:    36 (100.00%) Active: 0 Started: 1700 Finished: 1700
+2022-11-25 18:02:30,837 INFO o.a.j.r.Summariser: summary =  17000 in 06:25:15 =    0.7/s Avg: 118434 Min:     0 Max: 131208 Err: 17000 (100.00%)
+2022-11-25 18:02:30,838 INFO o.a.j.JMeter: Finished remote host: 172.19.0.2 (1669370550838)
+2022-11-25 18:02:30,838 INFO o.a.j.JMeter: All remote engines have ended test, starting RemoteTestStopper thread
+2022-11-25 18:02:35,844 INFO o.a.j.JMeter: Interrupting RMI Reaper
