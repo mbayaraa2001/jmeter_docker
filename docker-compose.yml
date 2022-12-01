@@ -5,6 +5,8 @@ services:
     build: ./jmeter-master
     container_name: master
     tty: true # tty true make the docker image stay up even with nothing running
+    volumes:
+      - ./results:/results:rw
     networks:
       - jmeter-network
   slave:
